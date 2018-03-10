@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/download"
+        android:scaleType="centerCrop"
+        android:id="@+id/first"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="She is a mother, a sister,"
+        android:id="@+id/second"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second"
+        android:textSize="20sp"
+        android:text="a daughter,"
+        android:layout_toRightOf="@+id/second"
+        android:id="@+id/third"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="a wife,"
+        android:layout_below="@+id/third"
+        android:layout_toRightOf="@+id/third"
+        android:id="@+id/fourth"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="human"
+        android:textSize="20sp"
+        android:layout_below="@+id/fourth"
+        android:id="@+id/five"
+        android:layout_alignParentEnd="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHE IS A WOMEN!"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/five"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/image1"
+        android:layout_alignParentEnd="true"
+        android:scaleType="centerCrop"
+        android:layout_alignBottom="@+id/first" />
+
+
+</RelativeLayout>
